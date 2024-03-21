@@ -11,6 +11,8 @@
  */
 
 function uasm_use_all_system_memory() {
+    echo "<h1>UASM - Unleash All System Memory <br></h1>";
+    echo "<p>Your site has installed the UASM plugin. Check the repository for more information. <a href='https://github.com/sejas/playground-plugin-use-all-system-memory'>https://github.com/sejas/playground-plugin-use-all-system-memory</a></p> <br><br>";
     echo "Initial memory usage: " . (memory_get_usage()/(1024*1024)) . ' MB <br>';
     $memoryUsage = 0;
     $data = '';
